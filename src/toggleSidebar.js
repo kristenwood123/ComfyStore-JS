@@ -1,8 +1,8 @@
 import { getElement } from './utils.js';
 
-const toggleNav = getElement('.toggle-nav')
-const sidebarOverlay = getElement('.sidebar-overlay')
-const closeBtn = getElement('.sidebar-close')
+const toggleNav = document.querySelector('.toggle-nav')
+const sidebarOverlay = document.querySelector('.sidebar-overlay')
+const closeBtn = document.querySelector('.sidebar-close')
 
 toggleNav.addEventListener('click', () => {
   sidebarOverlay.classList.add('show')
